@@ -13,6 +13,7 @@ import Navbar from "./components/Navbar";
 import { useContext, useEffect } from "react";
 import { Context } from "./main";
 import axios from "axios";
+import Footer from "./components/Footer";
 
 const App = () => {
 
@@ -46,6 +47,7 @@ const App = () => {
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
         </Routes>
+        <Footer/>
         <ToastContainer position="top-center" />
       </Router>
 
