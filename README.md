@@ -1,1 +1,1 @@
-## FRONTEND_URL= https://hospital-management-chetan-user-site.netlify.app/
+## FRONTEND_URL= https://hospital-management-frontend-chetan.vercel.app/
