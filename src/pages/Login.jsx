@@ -26,6 +26,7 @@ const Login = () => {
           }
         )
         .then((res) => {
+          // console.log("Api loging data : ",res.data)
           toast.success(res.data.message);
           setIsAuthenticated(true);
           navigateTo("/");
